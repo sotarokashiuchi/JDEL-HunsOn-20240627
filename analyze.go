@@ -6,7 +6,7 @@ import "fmt"
 // 奇数判定関数。与えられた引数が奇数の場合、その趣旨を表示する
 // 奇数とは、「2で割り切れない整数」
 // ex) 1, 3, 5, 7, ...
-func IsOddNumber(number int) {
+func IsOddNumber(number int
 	if number%2 == 1 {
 		fmt.Println(number, "は奇数です")
 	}
